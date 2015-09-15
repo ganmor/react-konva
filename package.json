@@ -1,6 +1,6 @@
 {
   "name": "react-konva",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "author": "Olim <olim.mail@gmail.com> Saidov, Mikhail <freiksenet@gmail.com> Novikov",
   "description": "Using Konva library with React",
   "keywords": [
@@ -39,7 +39,6 @@
     "test": "karma start --single-run --browsers Firefox",
     "test-watch": "karma start",
     "gh-pages": "./scripts/gh-pages.sh",
-
     "examples": "webpack-dev-server --config examples/webpack.config.js --content-base examples",
     "build": "./scripts/build.sh"
   }
