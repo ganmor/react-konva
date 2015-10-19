@@ -47,7 +47,7 @@ var Container = (function (_Base) {
       'span',
       null,
       _React2['default'].Children.map(this.props.children, function (child) {
-        return _React2['default'].addons.cloneWithProps(child);
+        return _React2['default'].cloneElement(child);
       })
     );
   };

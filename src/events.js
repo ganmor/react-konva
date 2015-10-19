@@ -9,7 +9,7 @@ export default {
   onMouseWheel: 'mousewheel.react',
   onClick: 'click.react',
   onDblClick: 'dblclick.react',
-  onDragStar: 'dragstart.react',
+  onDragStart: 'dragstart.react',
   onDragEnd: 'dragend.react',
   onTouchStart: 'touchstart.react',
   onTouchMove: 'touchmove.react',
